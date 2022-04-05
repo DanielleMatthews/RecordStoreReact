@@ -1,0 +1,44 @@
+*{
+    background-color: rgb(168, 125, 141);
+}
+button{
+    background-color: rgb(165, 243, 197);
+}
+#ahref{
+    font-size: larger;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    display: flex;   
+    width: 100%;    
+    flex-wrap: wrap; 
+}
+li {
+   flex: 1 0 30%; 
+}
+form{
+    text-align: right;
+}
+#app{
+    text-align: center;
+}
+#showinfo{
+    font-size: larger;
+}
+#showdiv{
+    text-align: center;
+}
+a:link{
+    color: rgb(1, 2, 1);
+    font-size: 22px;
+}
+a:visited{ 
+    color:rgb(10, 37, 15);
+}
+a:hover{ 
+    color: rgb(196, 238, 196);
+}
+a:active{
+    color: rgb(185, 29, 125);
+}

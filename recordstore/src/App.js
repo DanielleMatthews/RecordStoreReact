@@ -15,7 +15,7 @@ export default function App() {
       <Routes>
         <Route path='/' element={<Index/>} />
         <Route path="/:id" element={<Show/>} />
-        <Route path="/:id/edit" element={<Update/>} />
+        <Route path="/:id/update" element={<Update/>} />
         <Route path="/new" element={<New/>} />
         <Route path="*"  element={<Error/>}/> 
       </Routes>
